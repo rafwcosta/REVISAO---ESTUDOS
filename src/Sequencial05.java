@@ -7,6 +7,7 @@ public class Sequencial05 {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+            // ENTRADAS
             System.out.println("Valor a ser pago pelas peças!");
             System.out.print("N° de peças 1: ");
             int numeroUm = sc.nextInt();
@@ -18,8 +19,10 @@ public class Sequencial05 {
             System.out.print("Valor unitário de cada peça 2: ");
             double valorDois = sc.nextDouble();
 
+            // CÁLCULO
             double total = (numeroUm * valorUm) + (numeroDois * valorDois);
 
+            // SAÍDA
             System.out.println();
             System.out.printf("Total a ser pago: R$ %.2f%n", total);
 
